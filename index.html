@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,12 +14,36 @@
     <!--Favicon-->
     <!--PWA-->
 
-    <title>Pedro Paloma | Ingresa</title>
+    <title>PedroPaloma</title>
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <!--Mobile-Version-->
+        <div class="container-fluid colortheme center wrap">
+            <img class="logo" src="images/Logo.png" alt="PedroPaloma">
+            <p class="PrincipalTitles">Ingresa a tu cuenta</p>
+        </div>
+    </header>
+    <main>
+        <form class="Width100" action="">
+            <div class="container-fluid colortheme center wrap">
+                <!--Alert-->
+                <div class="alert" id="Alert-LogIn">Datos Incorrectos</div>
+                <!--/Alert-->
+                <input class="input" type="text" placeholder="Usuario">
+                <input class="input" type="password" placeholder="Contraseña">
+                <input class="Button" type="submit" value="Ingresar">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <div class="container-fluid colortheme center wrap">
+            <a class="white underline Registrate" href="registrate.html">Registrate</a>
+            <br>
+            <a class="white underline" href="RecuperaContraseña.html">No recuerdo mi contraseña</a>
+        </div>
+    </footer>
 
     <!--JS BOOTSTRAP-->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -28,4 +53,5 @@
     <!--MIS JS-->
 
 </body>
+
 </html>

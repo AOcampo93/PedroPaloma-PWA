@@ -1,9 +1,165 @@
-
-// Variables
-$ThemeColor: #323232;
-$SecondaryColor: #e94d2b;
-
-
-body{
-    background: $SecondaryColor;
-}
+        //Fonts
+        @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
+        // Variables
+        // Color Palette
+        $BackgroundColor: #332E7F;
+        $ButtonColor: #457AFB;
+        $AlertColor: #FC7777;
+        $SectionColor: #EDD90A;
+        $white: #fff;
+        //MARGINS & PADDINGS
+        $MarginTitles: -7%;
+        $InputMargin: 2.5% 0% 2.5% 0%;
+        $padding-left-Input: 8%;
+        //TEXT
+        $Type: 'Roboto',
+        sans-serif;
+        $titles: 6vw;
+        $TitleWeight: 500;
+        $TextColor: #393939;
+        //INPUTS
+        $BorderRadius: 25px 25px 25px 25px;
+        $ShadowInput: 0px 10px 23px -4px rgba(0,
+        0,
+        0,
+        0.5);
+        $ShadowFocus: 0px 10px 23px -4px rgba(0,
+        0,
+        0,
+        0.9);
+        $Placeholder-Inputs: 16pt;
+        $Placeholder-Color: #BABABA;
+        $AlertMargin-bottom: 1%;
+        $PaddingAlert: 1%;
+        //BUTTONS
+        $ButtonWeight: 700;
+        .colortheme {
+            background: $BackgroundColor;
+        }
+        
+        .center {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wrap {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .Width100 {
+            width: 100%;
+        }
+        
+        //HEADER APP
+        header {
+            .logo {
+                width: 90%;
+                margin-top: 10%;
+            }
+            .PrincipalTitles {
+                font-size: $titles;
+                color: $white;
+                font-family: $Type;
+                font-weight: $TitleWeight;
+                margin-top: $MarginTitles;
+                padding-bottom: 5%;
+            }
+        }
+        
+        //INPUTS
+        .input {
+            width: 90%;
+            height: 50px;
+            color: $TextColor;
+            margin: $InputMargin;
+            text-align: center;
+            font-size: $Placeholder-Inputs;
+            /* Border Radius */
+            border: none;
+            border-radius: $BorderRadius;
+            -moz-border-radius: $BorderRadius;
+            -webkit-border-radius: $BorderRadius;
+            /* Shadow */
+            box-shadow: $ShadowInput;
+            -moz-box-shadow: $ShadowInput;
+            -webkit-box-shadow: $ShadowInput;
+        }
+        
+        .input::placeholder {
+            color: $Placeholder-Color;
+        }
+        
+        input:focus,
+        input.form-control:focus {
+            outline: none !important;
+            outline-width: 0 !important;
+            box-shadow: $ShadowFocus;
+            -moz-box-shadow: $ShadowFocus;
+            -webkit-box-shadow: $ShadowFocus;
+        }
+        
+        //BUTTON
+        .Button {
+            width: 90%;
+            height: 50px;
+            text-align: center;
+            color: $white;
+            font-weight: $ButtonWeight;
+            font-size: 14pt;
+            margin-top: 10%;
+            margin-bottom: 8%;
+            background: $ButtonColor;
+            /* Border Radius */
+            border: none;
+            border-radius: $BorderRadius;
+            -moz-border-radius: $BorderRadius;
+            -webkit-border-radius: $BorderRadius;
+            /* Shadow */
+            box-shadow: $ShadowInput;
+            -moz-box-shadow: $ShadowInput;
+            -webkit-box-shadow: $ShadowInput;
+        }
+        
+        //ALERT
+        #Alert-LogIn {
+            display: none;
+        }
+        
+        .alert {
+            width: 90%;
+            min-height: 30px;
+            color: $white;
+            text-align: center;
+            background: $AlertColor;
+            margin: $AlertMargin-bottom;
+            padding: $PaddingAlert;
+            /* Border Radius */
+            border: none;
+            border-radius: $BorderRadius;
+            -moz-border-radius: $BorderRadius;
+            -webkit-border-radius: $BorderRadius;
+            /* Shadow */
+            box-shadow: $ShadowInput;
+            -moz-box-shadow: $ShadowInput;
+            -webkit-box-shadow: $ShadowInput;
+        }
+        
+        //FOOTER
+        footer {
+            .white {
+                color: white;
+            }
+            .underline {
+                text-decoration: underline;
+            }
+            .Registrate {
+                width: 100%;
+                text-align: center;
+                font-size: 16pt;
+                font-weight: $TitleWeight;
+            }
+            .Registrate:active {
+                color: white;
+            }
+        }
