@@ -1,0 +1,50 @@
+//HEADER APP
+header {
+    .logo {
+        width: 90%;
+        margin-top: 10%;
+    }
+    .PrincipalTitles {
+        font-size: $titles;
+        color: $white;
+        font-family: $Type;
+        font-weight: $TitleWeight;
+        margin-top: $MarginTitles;
+        padding-bottom: 5%;
+    }
+}
+
+@media only screen and (min-width: 426px) {
+    header {
+        background: $BackgroundColor !important;
+        color: white;
+        a {
+            color: inherit;
+        }
+    }
+}
+
+//FOOTER
+footer {
+    .white {
+        color: white;
+    }
+    .underline {
+        text-decoration: underline;
+    }
+    .Registrate {
+        width: 100%;
+        text-align: center;
+        font-size: 16pt;
+        font-weight: $TitleWeight;
+    }
+    .Registrate:active {
+        color: white;
+    }
+    .SpaceEnd {
+        padding-bottom: 8%;
+    }
+    .margin-top {
+        margin-top: 8%;
+    }
+}

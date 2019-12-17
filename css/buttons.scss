@@ -1,0 +1,21 @@
+//BUTTON
+.Button {
+    width: 90%;
+    height: 50px;
+    text-align: center;
+    color: $white;
+    font-weight: $ButtonWeight;
+    font-size: 14pt;
+    margin-top: 10%;
+    margin-bottom: 8%;
+    background: $ButtonColor;
+    /* Border Radius */
+    border: none;
+    border-radius: $BorderRadius;
+    -moz-border-radius: $BorderRadius;
+    -webkit-border-radius: $BorderRadius;
+    /* Shadow */
+    box-shadow: $ShadowInput;
+    -moz-box-shadow: $ShadowInput;
+    -webkit-box-shadow: $ShadowInput;
+}

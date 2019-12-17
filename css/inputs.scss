@@ -1,0 +1,31 @@
+//INPUTS
+.input {
+    width: 90%;
+    height: 50px;
+    color: $TextColor;
+    margin: $InputMargin;
+    text-align: center;
+    font-size: $Placeholder-Inputs;
+    /* Border Radius */
+    border: none;
+    border-radius: $BorderRadius;
+    -moz-border-radius: $BorderRadius;
+    -webkit-border-radius: $BorderRadius;
+    /* Shadow */
+    box-shadow: $ShadowInput;
+    -moz-box-shadow: $ShadowInput;
+    -webkit-box-shadow: $ShadowInput;
+}
+
+.input::placeholder {
+    color: $Placeholder-Color;
+}
+
+input:focus,
+input.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: $ShadowFocus;
+    -moz-box-shadow: $ShadowFocus;
+    -webkit-box-shadow: $ShadowFocus;
+}

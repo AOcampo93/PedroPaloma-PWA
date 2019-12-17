@@ -1,28 +1,23 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap");
-.colortheme {
-  background: #332E7F; }
-
-.center {
-  display: flex;
-  justify-content: center; }
-
-.wrap {
-  display: flex;
-  flex-wrap: wrap; }
-
-.Width100 {
-  width: 100%; }
-
-header .logo {
+.Button {
   width: 90%;
-  margin-top: 10%; }
-header .PrincipalTitles {
-  font-size: 6vw;
+  height: 50px;
+  text-align: center;
   color: #fff;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  margin-top: -7%;
-  padding-bottom: 5%; }
+  font-weight: 700;
+  font-size: 14pt;
+  margin-top: 10%;
+  margin-bottom: 8%;
+  background: #457AFB;
+  /* Border Radius */
+  border: none;
+  border-radius: 25px 25px 25px 25px;
+  -moz-border-radius: 25px 25px 25px 25px;
+  -webkit-border-radius: 25px 25px 25px 25px;
+  /* Shadow */
+  box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5); }
 
 .input {
   width: 90%;
@@ -52,26 +47,6 @@ input.form-control:focus {
   -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.9);
   -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.9); }
 
-.Button {
-  width: 90%;
-  height: 50px;
-  text-align: center;
-  color: #fff;
-  font-weight: 700;
-  font-size: 14pt;
-  margin-top: 10%;
-  margin-bottom: 8%;
-  background: #457AFB;
-  /* Border Radius */
-  border: none;
-  border-radius: 25px 25px 25px 25px;
-  -moz-border-radius: 25px 25px 25px 25px;
-  -webkit-border-radius: 25px 25px 25px 25px;
-  /* Shadow */
-  box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
-  -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5); }
-
 #Alert-LogIn {
   display: none; }
 
@@ -93,6 +68,23 @@ input.form-control:focus {
   -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5); }
 
+header .logo {
+  width: 90%;
+  margin-top: 10%; }
+header .PrincipalTitles {
+  font-size: 6vw;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  margin-top: -7%;
+  padding-bottom: 5%; }
+
+@media only screen and (min-width: 426px) {
+  header {
+    background: #332E7F !important;
+    color: white; }
+    header a {
+      color: inherit; } }
 footer .white {
   color: white; }
 footer .underline {
@@ -104,5 +96,96 @@ footer .Registrate {
   font-weight: 500; }
 footer .Registrate:active {
   color: white; }
+footer .SpaceEnd {
+  padding-bottom: 8%; }
+footer .margin-top {
+  margin-top: 8%; }
+
+.Texticons {
+  font-size: 16pt; }
+
+@media only screen and (max-width: 1024px) {
+  .Texticons {
+    font-size: 11pt; } }
+.Desktop {
+  display: none; }
+
+body {
+  background: #332E7F; }
+
+@media only screen and (min-width: 426px) {
+  body {
+    background: #fff; }
+
+  .app {
+    display: none; }
+
+  .Desktop {
+    display: block; }
+
+  .work {
+    width: 100%;
+    text-align: center; }
+    .work h2 {
+      width: 100%;
+      text-align: center;
+      margin-top: 5%; }
+    .work .content {
+      margin: 4%; }
+    .work .center {
+      width: 100%; }
+    .work .icons {
+      width: 70%; }
+
+  .form {
+    width: 100%;
+    background: #332E7F;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 4%; }
+    .form .input {
+      width: 100%;
+      height: 65px; }
+    .form div {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: 4%; }
+      .form div h3 {
+        width: 100%;
+        color: white;
+        font-size: 36pt;
+        text-align: center; }
+      .form div p {
+        width: 50%;
+        text-align: center;
+        color: white;
+        font-size: 18pt;
+        font-weight: 300; } }
+.colortheme {
+  background: #332E7F; }
+
+.center {
+  display: flex;
+  justify-content: center; }
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap; }
+
+.Width100 {
+  width: 100%; }
+
+hr {
+  margin: 0%;
+  border: 1.5px solid white; }
+
+.textCenter {
+  text-align: center; }
+
+.icons {
+  width: 60%; }
 
 /*# sourceMappingURL=styles.css.map */

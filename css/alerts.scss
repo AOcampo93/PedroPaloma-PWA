@@ -1,0 +1,23 @@
+//ALERT
+#Alert-LogIn {
+    display: none;
+}
+
+.alert {
+    width: 90%;
+    min-height: 30px;
+    color: $white;
+    text-align: center;
+    background: $AlertColor;
+    margin: $AlertMargin-bottom;
+    padding: $PaddingAlert;
+    /* Border Radius */
+    border: none;
+    border-radius: $BorderRadius;
+    -moz-border-radius: $BorderRadius;
+    -webkit-border-radius: $BorderRadius;
+    /* Shadow */
+    box-shadow: $ShadowInput;
+    -moz-box-shadow: $ShadowInput;
+    -webkit-box-shadow: $ShadowInput;
+}

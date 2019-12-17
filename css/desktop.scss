@@ -1,0 +1,70 @@
+.Desktop {
+    display: none;
+}
+
+body {
+    background: $BackgroundColor;
+}
+
+@media only screen and (min-width: 426px) {
+    body {
+        background: $white;
+    }
+    .app {
+        display: none;
+    }
+    .Desktop {
+        display: block;
+    }
+    //Como funciona
+    .work {
+        width: 100%;
+        text-align: center;
+        h2 {
+            width: 100%;
+            text-align: center;
+            margin-top: 5%;
+        }
+        .content {
+            margin: 4%;
+        }
+        .center {
+            width: 100%;
+        }
+        .icons {
+            width: 70%;
+        }
+    }
+    .form {
+        width: 100%;
+        background: $BackgroundColor;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 4%;
+        .input {
+            width: 100%;
+            height: 65px;
+        }
+        div {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 4%;
+            h3 {
+                width: 100%;
+                color: white;
+                font-size: 36pt;
+                text-align: center;
+            }
+            p {
+                width: 50%;
+                text-align: center;
+                color: white;
+                font-size: 18pt;
+                font-weight: 300;
+            }
+        }
+    }
+}
