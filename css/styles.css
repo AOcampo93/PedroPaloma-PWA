@@ -163,7 +163,8 @@ body {
         text-align: center;
         color: white;
         font-size: 18pt;
-        font-weight: 300; } }
+        font-weight: 300;
+        line-height: 1.2; } }
 .colortheme {
   background: #332E7F; }
 
@@ -184,8 +185,5 @@ hr {
 
 .textCenter {
   text-align: center; }
-
-.icons {
-  width: 60%; }
 
 /*# sourceMappingURL=styles.css.map */
