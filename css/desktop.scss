@@ -10,6 +10,17 @@ body {
     body {
         background: $white;
     }
+    header {
+        nav {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            @media only screen and (max-width: 990px) {
+                padding: 3% 0% 3% 0%;
+            }
+        }
+    }
     .app {
         display: none;
     }
@@ -42,6 +53,10 @@ body {
         justify-content: center;
         flex-wrap: wrap;
         margin-top: 4%;
+        padding-bottom: 6%;
+        form {
+            width: 50%;
+        }
         .input {
             width: 100%;
             height: 65px;
@@ -66,6 +81,70 @@ body {
                 font-weight: 300;
                 line-height: 1.2;
             }
+        }
+    }
+    .info {
+        width: 99%;
+        .center-flex {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0%;
+        }
+        img {
+            width: 100%;
+        }
+        .overflow {
+            overflow: hidden;
+        }
+        p {
+            width: 80%;
+            text-align: center;
+            color: $BackgroundColor;
+            font-size: 16pt;
+            font-weight: 700;
+        }
+        @media only screen and (max-width: 766px) {
+            .inverse {
+                display: flex;
+                flex-wrap: wrap-reverse;
+            }
+            p {
+                margin-top: 6%;
+                margin-bottom: 6%;
+            }
+        }
+    }
+    footer {
+        background: $BackgroundColor;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        color: white;
+        .row {
+            width: 99%;
+            padding: 0%;
+        }
+        a {
+            color: white;
+            line-height: 2;
+        }
+        a:hover {
+            color: white;
+            font-weight: 700;
+        }
+        ul {
+            list-style: none;
+        }
+        .linea {
+            border-left: 2px solid white;
+        }
+        .list {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        img {
+            margin-left: 4%;
         }
     }
 }
