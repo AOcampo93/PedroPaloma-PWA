@@ -56,7 +56,7 @@
             <div class="col-4 col-md-4 col-lg-2">
                 <img class="img-fluid" src="images/logo.png" alt="PedroPaloma">
             </div>
-            <button class="Button-nav">Ingresa a la App</button>
+            <button class="Button-nav" data-toggle="modal" data-target="#IngresaApp">Ingresa a la App</button>
         </nav>
     </header>
     <main class="Desktop">
@@ -160,7 +160,7 @@
             <div class="col-md-3 center-flex">
                 <img class="img-fluid" src="images/logo.png" alt="PedroPaloma">
             </div>
-            <div class="col-md-8 linea list">
+            <div class="col-md-9 linea list">
                 <ul>
                     <li><a href="#" target="_blank">¿Cómo ingreso a la app para hacer mi pedido?</a></li>
                     <li><a href="#" target="_blank">¿Aún tienes dudas?, contáctanos</a></li>
@@ -179,6 +179,26 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
     <!--MIS JS-->
+
+    <!--MODAL INGRESA A LA APP-->
+    <div class="modal fade" id="IngresaApp" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalCenterTitle">Mira el video y te decimos como:</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+                </div>
+                <div class="modal-body">
+                    <iframe width="100%" height="315" src="https://www.youtube.com/embed/vkh3UlsSvsQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
