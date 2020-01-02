@@ -34,3 +34,26 @@
         .textCenter {
             text-align: center;
         }
+        
+        //Modals
+        .modal-enviado {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+            div {
+                width: 100%;
+            }
+            h4 {
+                color: $BackgroundColor;
+                font-weight: 700;
+            }
+            p {
+                font-size: 14pt;
+                padding: 0% 4% 0% 4%;
+            }
+            button {
+                background: $ButtonColor;
+                color: white;
+            }
+        }

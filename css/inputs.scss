@@ -49,3 +49,17 @@ input.form-control:focus {
     -moz-box-shadow: $ShadowInput;
     -webkit-box-shadow: $ShadowInput;
 }
+
+//Select
+select {
+    text-align-last: center;
+}
+
+select:focus,
+select.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: $ShadowFocus;
+    -moz-box-shadow: $ShadowFocus;
+    -webkit-box-shadow: $ShadowFocus;
+}

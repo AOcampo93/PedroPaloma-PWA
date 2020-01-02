@@ -103,6 +103,17 @@ input.form-control:focus {
   -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.5); }
 
+select {
+  text-align-last: center; }
+
+select:focus,
+select.form-control:focus {
+  outline: none !important;
+  outline-width: 0 !important;
+  box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 0px 10px 23px -4px rgba(0, 0, 0, 0.9); }
+
 #Alert-LogIn {
   display: none; }
 
@@ -166,16 +177,26 @@ footer .margin-top {
   color: white;
   font-size: 12pt; }
 
+a.text-white {
+  color: white; }
+
 @media only screen and (max-width: 1024px) {
   .Texticons {
     font-size: 11pt; } }
+.titles-white {
+  font-size: 13pt;
+  color: white;
+  text-align: center;
+  padding: 0% 5% 0% 5%;
+  font-weight: 100; }
+
 .Desktop {
   display: none; }
 
 body {
   background: #332E7F; }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 769px) {
   body {
     background: #fff; }
 
@@ -184,11 +205,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between; } }
-  @media only screen and (min-width: 426px) and (max-width: 990px) {
+  @media only screen and (min-width: 769px) and (max-width: 990px) {
     header nav {
       padding: 3% 0% 3% 0%; } }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 769px) {
   .app {
     display: none; }
 
@@ -258,7 +279,7 @@ body {
       color: #332E7F;
       font-size: 16pt;
       font-weight: 700; } }
-  @media only screen and (min-width: 426px) and (max-width: 766px) {
+  @media only screen and (min-width: 769px) and (max-width: 766px) {
     .info .inverse {
       display: flex;
       flex-wrap: wrap-reverse; }
@@ -266,7 +287,7 @@ body {
       margin-top: 6%;
       margin-bottom: 6%; } }
 
-@media only screen and (min-width: 426px) {
+@media only screen and (min-width: 769px) {
   footer {
     background: #332E7F;
     padding-top: 3%;
@@ -311,5 +332,22 @@ hr {
 
 .textCenter {
   text-align: center; }
+
+.modal-enviado {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+  .modal-enviado div {
+    width: 100%; }
+  .modal-enviado h4 {
+    color: #332E7F;
+    font-weight: 700; }
+  .modal-enviado p {
+    font-size: 14pt;
+    padding: 0% 4% 0% 4%; }
+  .modal-enviado button {
+    background: #457AFB;
+    color: white; }
 
 /*# sourceMappingURL=styles.css.map */
