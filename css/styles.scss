@@ -57,3 +57,43 @@
                 color: white;
             }
         }
+        
+        //Info Page
+        .infopage {
+            flex-wrap: wrap;
+            p {
+                padding: 4% 6% 0% 6%;
+                color: white;
+                font-size: 12pt;
+                text-align: center;
+            }
+            a {
+                color: white;
+                font-size: 14pt;
+                text-decoration: underline;
+                font-weight: 700;
+            }
+            div {
+                margin-top: 5%;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+            }
+        }
+        
+        //Cerrar X
+        .cerrar {
+            width: 100%;
+            color: white;
+            text-align: right;
+            padding: 4%;
+            a {
+                color: white;
+                font-size: 14pt;
+                font-weight: 400;
+            }
+        }
+        
+        .absolute {
+            position: absolute;
+        }

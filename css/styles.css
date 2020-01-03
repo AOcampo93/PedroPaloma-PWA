@@ -168,6 +168,16 @@ footer .SpaceEnd {
 footer .margin-top {
   margin-top: 8%; }
 
+.menu {
+  width: 100%;
+  height: auto; }
+
+.logo-nav {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 100%; }
+
 .Texticons {
   font-size: 16pt; }
 
@@ -349,5 +359,36 @@ hr {
   .modal-enviado button {
     background: #457AFB;
     color: white; }
+
+.infopage {
+  flex-wrap: wrap; }
+  .infopage p {
+    padding: 4% 6% 0% 6%;
+    color: white;
+    font-size: 12pt;
+    text-align: center; }
+  .infopage a {
+    color: white;
+    font-size: 14pt;
+    text-decoration: underline;
+    font-weight: 700; }
+  .infopage div {
+    margin-top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center; }
+
+.cerrar {
+  width: 100%;
+  color: white;
+  text-align: right;
+  padding: 4%; }
+  .cerrar a {
+    color: white;
+    font-size: 14pt;
+    font-weight: 400; }
+
+.absolute {
+  position: absolute; }
 
 /*# sourceMappingURL=styles.css.map */
