@@ -1,7 +1,7 @@
 {
     "paquetes": [{
             "nombre": "Paquete Reunión",
-            "descripción": "Contiene 50 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "descripcion": "Contiene 50 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 200 MXN",
             "foto": "paquete-50.png",
             "contenido": [
@@ -18,7 +18,7 @@
         },
         {
             "nombre": "Paquete Convivencia",
-            "descripción": "Contiene 100 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "descripcion": "Contiene 100 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 400 MXN",
             "foto": "paquete-100.png",
             "contenido": [
@@ -35,7 +35,7 @@
         },
         {
             "nombre": "Paquete Fiesta",
-            "descripción": "Contiene 200 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "descripcion": "Contiene 200 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 800 MXN",
             "foto": "paquete-200.png",
             "contenido": [
