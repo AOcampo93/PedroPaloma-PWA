@@ -97,3 +97,18 @@
         .absolute {
             position: absolute;
         }
+        
+        //Pagina de Catalogo
+        .cont-caja {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        
+        .caja {
+            width: 80%;
+            border: 1px solid black;
+            padding: 3%;
+            margin: 3% 0% 3% 0%;
+        }
