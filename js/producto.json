@@ -1,0 +1,54 @@
+{
+    "paquetes": [{
+            "nombre": "Paquete Reunión",
+            "descripción": "Contiene 50 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "precio": "$ 200 MXN",
+            "foto": "paquete-50.png",
+            "contenido": [
+                "Palomitas de matequilla",
+                "Palomitas Palomitas ligth",
+                "Palomitas ligth con sal",
+                "Palomitas (Receta de Casa)",
+                "Palomitas de Tajín",
+                "Palomitas de Caramelo",
+                "Palomitas de Uva",
+                "Palomitas de Limón",
+                "Palomitas de chocolate"
+            ]
+        },
+        {
+            "nombre": "Paquete Convivencia",
+            "descripción": "Contiene 100 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "precio": "$ 400 MXN",
+            "foto": "paquete-100.png",
+            "contenido": [
+                "Palomitas de matequilla",
+                "Palomitas Palomitas ligth",
+                "Palomitas ligth con sal",
+                "Palomitas (Receta de Casa)",
+                "Palomitas de Tajín",
+                "Palomitas de Caramelo",
+                "Palomitas de Uva",
+                "Palomitas de Limón",
+                "Palomitas de chocolate"
+            ]
+        },
+        {
+            "nombre": "Paquete Fiesta",
+            "descripción": "Contiene 200 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
+            "precio": "$ 800 MXN",
+            "foto": "paquete-200.png",
+            "contenido": [
+                "Palomitas de matequilla",
+                "Palomitas Palomitas ligth",
+                "Palomitas ligth con sal",
+                "Palomitas (Receta de Casa)",
+                "Palomitas de Tajín",
+                "Palomitas de Caramelo",
+                "Palomitas de Uva",
+                "Palomitas de Limón",
+                "Palomitas de chocolate"
+            ]
+        }
+    ]
+}

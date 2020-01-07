@@ -50,14 +50,65 @@ footer {
 }
 
 //Navbar
-.menu {
-    width: 100%;
-    height: auto;
+.back-white {
+    background: white;
 }
 
-.logo-nav {
+.menu {
+    width: 100%;
+    height: 90px;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    background: $BackgroundColor;
+    //Shadow
+    box-shadow: $Navbar-Shadow;
+    -moz-box-shadow: $Navbar-Shadow;
+    -webkit-box-shadow: $Navbar-Shadow;
+    border: none;
+    .logo-nav {
+        max-width: 160px;
+        margin: 0%;
+    }
+    .logo {
+        margin-top: 0%;
+    }
+    div {
+        padding-right: 5%;
+    }
+}
+
+#menu {
     width: 100%;
+    margin-top: -55px;
+    display: none;
+    background: $BackgroundColor;
+    padding: 5% 0% 1% 0%;
+    border: none;
+    color: white;
+    position: absolute;
+    //Shadow
+    box-shadow: $Navbar-Shadow;
+    -moz-box-shadow: $Navbar-Shadow;
+    -webkit-box-shadow: $Navbar-Shadow;
+    a {
+        color: white;
+        font-weight: 100;
+    }
+    a:hover {
+        font-weight: 700;
+        text-decoration: none;
+    }
+}
+
+.InstructionBox {
+    background: $SectionColor;
+    color: $TextColor;
+    font-weight: 600;
+    text-align: center;
+    padding: 2% 0% 2% 0%;
+    //Shadow
+    box-shadow: $Navbar-Shadow;
+    -moz-box-shadow: $Navbar-Shadow;
+    -webkit-box-shadow: $Navbar-Shadow;
 }

@@ -168,15 +168,56 @@ footer .SpaceEnd {
 footer .margin-top {
   margin-top: 8%; }
 
+.back-white {
+  background: white; }
+
 .menu {
   width: 100%;
-  height: auto; }
-
-.logo-nav {
+  height: 90px;
   display: flex;
   justify-content: center;
-  align-content: center;
-  width: 100%; }
+  align-items: center;
+  background: #332E7F;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  border: none; }
+  .menu .logo-nav {
+    max-width: 160px;
+    margin: 0%; }
+  .menu .logo {
+    margin-top: 0%; }
+  .menu div {
+    padding-right: 5%; }
+
+#menu {
+  width: 100%;
+  margin-top: -55px;
+  display: none;
+  background: #332E7F;
+  padding: 5% 0% 1% 0%;
+  border: none;
+  color: white;
+  position: absolute;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53); }
+  #menu a {
+    color: white;
+    font-weight: 100; }
+  #menu a:hover {
+    font-weight: 700;
+    text-decoration: none; }
+
+.InstructionBox {
+  background: #EDD90A;
+  color: #393939;
+  font-weight: 600;
+  text-align: center;
+  padding: 2% 0% 2% 0%;
+  box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -moz-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53);
+  -webkit-box-shadow: 0px 5px 10px -3px rgba(0, 0, 0, 0.53); }
 
 .Texticons {
   font-size: 16pt; }

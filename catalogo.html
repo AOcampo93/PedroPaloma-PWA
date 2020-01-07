@@ -11,6 +11,7 @@
     <!--Mis estilos-->
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/animate.css">
 
     <!--Favicon-->
     <!--PWA-->
@@ -19,35 +20,32 @@
 
 </head>
 
-<body>
-
+<body class="back-white">
     <header class="app">
-        <!--Header-->
-
         <!--Icono-->
         <div class="menu">
-            <div class="content-fluid">
-                <div class="row">
-                    <div class="col-6">
-                        <img class="logo-nav" src="images/Logo.png" alt="Pedropaloma">
-                    </div>
-                    <div class="col-4"></div>
-                    <div class="col-2">
-                        <div id="nav-icon4">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                    </div>
+            <div class="logo">
+                <img class="img-fluid logo-nav" src="images/Logo.png" alt="PedroPaloma">
+            </div>
+            <div class="menu-icon">
+                <div id="nav-icon4" onclick="displayMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
                 </div>
             </div>
         </div>
-
-
-
+        <div class="InstructionBox">Escógete un paquete</div>
+        <div id="menu">
+            <ul>
+                <li><a href="editar-info.html"> Configurar mis datos</a></li>
+                <li><a href="#"> Tengo un problema</a></li>
+                <li><a href="index.html"> Cerrar Sesión</a></li>
+            </ul>
+        </div>
     </header>
     <main class="app">
-
+        <div id="catalogo"></div>
     </main>
 
     <!--JS BOOTSTRAP-->
@@ -57,6 +55,7 @@
 
     <!--MIS JS-->
     <script src="js/menu.js"></script>
+    <script src="js/catalogo.js"></script>
 </body>
 
 </html>
