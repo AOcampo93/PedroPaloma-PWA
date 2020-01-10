@@ -4,6 +4,7 @@
             "descripcion": "Contiene 50 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 200 MXN",
             "foto": "paquete-50.png",
+            "link": "paquete50.html",
             "contenido": [
                 "Palomitas de matequilla",
                 "Palomitas Palomitas ligth",
@@ -21,6 +22,7 @@
             "descripcion": "Contiene 100 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 400 MXN",
             "foto": "paquete-100.png",
+            "link": "paquete100.html",
             "contenido": [
                 "Palomitas de matequilla",
                 "Palomitas Palomitas ligth",
@@ -38,6 +40,7 @@
             "descripcion": "Contiene 200 bolsas de palomitas de distintos sabores, para reuniones pequeñas.",
             "precio": "$ 800 MXN",
             "foto": "paquete-200.png",
+            "link": "paquete200.html",
             "contenido": [
                 "Palomitas de matequilla",
                 "Palomitas Palomitas ligth",
