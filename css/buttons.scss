@@ -22,6 +22,29 @@
     outline-width: 0 !important;
 }
 
+.button-catalogo {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: $white;
+    font-weight: $ButtonWeight;
+    font-size: 12pt;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    background: $ButtonColor;
+    /* Border Radius */
+    border: none;
+    border-radius: $BorderRadius;
+    -moz-border-radius: $BorderRadius;
+    -webkit-border-radius: $BorderRadius;
+    /* Shadow */
+    box-shadow: $ShadowInput;
+    -moz-box-shadow: $ShadowInput;
+    -webkit-box-shadow: $ShadowInput;
+    outline: none !important;
+    outline-width: 0 !important;
+}
+
 .Button:focus {
     box-shadow: $ShadowFocus;
     -moz-box-shadow: $ShadowFocus;

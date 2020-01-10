@@ -1,4 +1,4 @@
-// LLmando el JSON
+// Llamando el JSON
 const requestURL = 'https://aocampo93.github.io/PedroPaloma-PWA/js/producto.json';
 fetch(requestURL)
     .then(function(response) {
@@ -45,15 +45,15 @@ fetch(requestURL)
             //h2 -> Nombre
             titulo.textContent = paquetes[i].nombre;
             //p -> Descripcion
-            descripcion.textContent = 'descripcion: ' + paquetes[i].descripcion;
+            descripcion.textContent = paquetes[i].descripcion;
             //p -> Precio
-            precio.textContent = 'precio: ' + paquetes[i].precio;
+            precio.textContent = paquetes[i].precio;
             //Escribimos dentro del botón el texto deseado
             boton.textContent = 'Perzonaliza tu paquete';
+            //Creamos una variable donde decimos que tome el link del JSON corespondiente
             var link = paquetes[i].link;
+            //Creamos un atributo a <button> y agregamos un "onclick" y cocatenamos la  url correspondiente
             boton.setAttribute("onclick", "location.href=" + "'" + link + "'");
-
-
             //Agregamos un src a la etiqueta <img> donde llamaremos desde el JSON la url de la imagen
             img.src = 'images/' + paquetes[i].foto;
 
@@ -66,13 +66,14 @@ fetch(requestURL)
             //Agregamos una clase al elemento "Caja"
             caja.classList.add('caja');
             //Agregamos una clase al elemento "img-fluid" de Bootstrap
-            img.classList.add('img-fluid');
+            img.classList.add('img-fluid', 'Width100');
+            //Agregamos una clase al elemento <button>
+            boton.classList.add('button-catalogo');
+            //Agregamos una clase al elemento <p> para precio
+            precio.classList.add('precio-text');
 
 
-
-
-
-            //El for hará esto por el tamaño de Array[] del JSON
+            //El "for" hará esto por el tamaño del Array[] del JSON
 
         }
     });
